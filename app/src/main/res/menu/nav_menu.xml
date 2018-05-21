@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_museum"
+            android:icon="@drawable/museum"
+            android:title="场馆简介"/>
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/guide2"
+            android:title="参观指南"/>
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="地理信息"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/set"
+            android:title="设置"/>
+    </group>
+</menu>
